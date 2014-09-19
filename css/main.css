@@ -32,6 +32,7 @@ img {
 
 .header {
     background-color: #d0d0d0;
+    overflow: hidden;
 }
 
 .title {
@@ -41,10 +42,9 @@ img {
 }
 
 .nav {
-    margin: 0;
     padding: 0;
     list-style-type: none;
-    color: #007409;
+    color: #0074D9;
 }
 
 .nav a {
@@ -65,13 +65,12 @@ img {
 @media only screen and (min-width: 55em) {
     
     .title {
-        text-align: left;
+        float: left;
         margin: 0;
     }
     
     .nav {
         float: left;
-        overflow: hidden;
     }
     
 }
