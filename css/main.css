@@ -25,6 +25,11 @@ body {
   padding: 0;
 }
 
+.h2 {
+    background-color: #e2e2e2;
+    text-align:center;
+}
+
 img {
   display: block;
   width: 100%;
@@ -33,6 +38,18 @@ img {
 .header {
     background-color: #d0d0d0;
     overflow: hidden;
+}
+
+.footer {
+    background-color: #d0d0d0
+}
+
+.lightgrey {
+    background-color: #e2e2e2
+}
+
+.lightergrey {
+    background-color: #ebebeb
 }
 
 .title {
@@ -50,6 +67,11 @@ img {
 .nav a {
     text-decoration: none;
 }
+
+.nav a:hover {
+    background-color: #0074D9;
+    color: white;
+} 
 
 @media only screen and (min-width: 30em) {
 
