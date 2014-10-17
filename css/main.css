@@ -17,15 +17,25 @@ html {
 }
 
 @media only screen and (min-width: 60em) {
+
+    html {
     font-size: 110%;
+    }
+
 }
     
 @media only screen and (min-width: 90em) {
+    
+    html {
     font-size: 120%;
+    }
 }
 
 @media only screen and (min-width: 120em) {
+   
+    html {
     font-size: 130%;
+    }
 }
 
 *, *:before, *:after {
@@ -42,6 +52,7 @@ body {
     text-align:center;
 }
 
+
 img {
   display: block;
   width: 100%;
@@ -53,7 +64,9 @@ img {
 }
 
 .footer {
-    background-color: #d0d0d0
+    background-color: #d0d0d0;
+ 
+   
 }
 
 .lightgrey {
@@ -72,6 +85,7 @@ img {
 
 .nav {
     padding: 0;
+    margin: 0;
     list-style-type: none;
     color: #0074D9;
 }
@@ -93,7 +107,11 @@ img {
     .nav {
         text-align: center;
     }
+    .footer {
+        text-align: center;
 }
+
+
 
 @media only screen and (min-width: 40em) {
     .title {
@@ -105,4 +123,28 @@ img {
         float: left;
     }
     
+    .footer .nav {
+        float:right;
+    }
+    .footer p {
+        float: left;
+    }
+}
+@media only screen and (min-width: 60em) {
+    .spaceafter {
+        padding-left: 2em;
+        }
+    dl {
+        overflow: hidden;
+        }
+
+    dt {
+        float: left;
+        clear: left;
+        width: 8rem;
+        }
+
+    dd {
+        float: left;   
+        }
 }
