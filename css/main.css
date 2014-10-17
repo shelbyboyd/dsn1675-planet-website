@@ -127,7 +127,7 @@ img {
         float:right;
     }
     .footer p {
-        float: left;
+        text-align: left;
     }
 }
 @media only screen and (min-width: 60em) {
