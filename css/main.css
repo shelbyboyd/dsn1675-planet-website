@@ -16,6 +16,18 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    font-size: 110%;
+}
+    
+@media only screen and (min-width: 90em) {
+    font-size: 120%;
+}
+
+@media only screen and (min-width: 120em) {
+    font-size: 130%;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -73,8 +85,7 @@ img {
     color: white;
 } 
 
-@media only screen and (min-width: 30em) {
-
+@media only screen and (min-width: 25em) {
     .nav li {
         display: inline-block;
     }
@@ -84,8 +95,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 55em) {
-    
+@media only screen and (min-width: 40em) {
     .title {
         float: left;
         margin: 0;
