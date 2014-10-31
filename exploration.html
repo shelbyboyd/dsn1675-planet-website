@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Moons</title>
+  <title>Exploration</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/moon.css" rel="stylesheet">
@@ -31,9 +31,62 @@
             </div>    
         </div>
         </header>  
-        <main role="main" id="main">
+        <main role="main" id="main" class="lightgrey">
         <h2 class="peta gutter h2">Exploration</h2>
-        </main>
+        
+            
+        <div class="center">    
+        <h2 class="gutter">Join Jupiter's Exploration Team</h2>
+            
+        <p class="gutter">Are you interested in exploring Jupiter with a group of extremely telented people? <em>Sign up below!</em></p>
+        </div>
+        
+        <div class="island" "pad-bottom-half">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+            
+        <div>
+            <label for="email-addr">E-mail Address</label>
+            <input type="email" id="email-addr">
+        </div>
+            
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" min="1" max="130">
+        </div>
+        
+        <div>
+            <p class="push-0"><em>Your level of awesomeness:</em></p> 
+        
+            <span class="radio">
+                <input type="radio" id="meh" name="awesomeness">
+                <label for="meh">Meh...</label>
+            </span>
+            
+            <span class="radio">
+                <input type="radio" id="pretty-good" name="awesomeness">
+                <label for="pretty-good">Pretty good...</label>
+            </span>
+            
+            <span class="radio">
+                <input type="radio" id="super" name="awesomeness">
+                <label for="super">Super!</label>
+            </span>
+        </div>
+            
+        <div>   
+            <label for="explain-why-you-deserve-to-go">Explain why you deserve to go:</label>
+            <textarea id="explain-why-you-deserve-to-go"></textarea>
+        </div>
+            
+        <div class="island" "center">
+            <button type="submit">Sign Up</button>
+        </div>
+        </div>
+            
+       </main>
        <footer class="footer island">
                 <div class="grid">
                 <div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 ">
