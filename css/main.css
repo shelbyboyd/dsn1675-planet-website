@@ -134,9 +134,13 @@ img {
 }
 
 
-input {
+.inputfields {
     width: 100%;
     font-size:1em;
+}
+
+input + label {
+    display: inline-block;
 }
 
 .radio {
@@ -145,7 +149,6 @@ input {
 
 button {
     font-size: 1em;
-    display: block;
 }
 
 textarea {
@@ -163,6 +166,7 @@ textarea {
     }
     .footer {
         text-align: center;
+    }
 }
 
 
@@ -200,5 +204,4 @@ textarea {
     dd {
         float: left;   
         }
-   
 }
