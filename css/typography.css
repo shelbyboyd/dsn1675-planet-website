@@ -10,7 +10,6 @@ fieldset, pre, table {
 }
 
 .quote {
-    background-color: #e2e2e2;
     text-align:center;
 }
 
@@ -147,6 +146,7 @@ sub {
   padding-right: 3.0000rem;
 }
 
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6,
+.brand-family {
   font-family: "Open Sans", sans-serif;
 }

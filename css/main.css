@@ -76,8 +76,24 @@ a:focus {
     top: 0;
 }
 
+.billboard {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+} 
+
+.caption {
+  color: white;
+  font-size: .5em;
+  bottom: 60px;
+  width: 100%;
+  position: relative; 
+  background-color: rgba(141, 73, 16, 0.83);
+}
+        
 .h2 {
-    background-color: #e2e2e2;
+    background-color: #c78f60; 
     text-align:center;
 }
 
@@ -88,22 +104,22 @@ img {
 }
 
 .header {
-    background-color: #d0d0d0;
+    background-color: #8d4910;
     overflow: hidden;
+    color:#fff;
 }
 
 .footer {
-    background-color: #d0d0d0;
- 
-   
+    background-color: #8d4910;
+    color: #fff;
 }
 
 .lightgrey {
-    background-color: #e2e2e2
+    background-color: #c78f60;
 }
 
 .lightergrey {
-    background-color: #ebebeb
+    background-color: #dbb697;
 }
 
 .title {
@@ -116,7 +132,7 @@ img {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    color: #0074D9;
+    color: #fff;
 }
 
 .nav a {
@@ -159,6 +175,13 @@ textarea {
     height: 8rem;
 }
 
+.header img {
+  float: left;
+  width: 25%;
+  height: 25%;
+  padding: 2%;
+}    
+
 @media only screen and (min-width: 25em) {
     .nav li {
         display: inline-block;
@@ -170,6 +193,12 @@ textarea {
     .footer {
         text-align: center;
     }
+    
+    .caption {  
+        font-size: .75em;
+        bottom: 150px;
+        padding: 1.5%;
+    }  
 }
 
 
@@ -188,6 +217,11 @@ textarea {
     }
     .footer p {
         text-align: left;
+    }
+    .caption {
+        font-size: 1em;
+        bottom: 275px;
+        padding: 2%;
     }
 }
 @media only screen and (min-width: 80em) {
@@ -209,5 +243,11 @@ textarea {
         }
     .pad-large {
         max-width: 70%;
+    }
+    
+    .caption {
+        font-size: 1.25em;
+        bottom: 450px;
+        padding: 5%;
     }
 }
