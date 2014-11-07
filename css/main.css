@@ -187,7 +187,7 @@ textarea {
         text-align: left;
     }
 }
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 80em) {
     .spaceafter {
         padding-left: 2em;
         }
@@ -204,4 +204,7 @@ textarea {
     dd {
         float: left;   
         }
+    .pad-large {
+        max-width: 70%;
+    }
 }
