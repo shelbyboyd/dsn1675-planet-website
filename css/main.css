@@ -9,7 +9,7 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
+
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -123,9 +123,12 @@ img {
     text-decoration: none;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current {
     background-color: #0074D9;
-    color: white;
+    color: #fff;
 }
 
 
